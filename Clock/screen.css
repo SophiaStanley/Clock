@@ -1,0 +1,29 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom, cyan, blue);
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 7.5vh;
+}
+
+section.visual-time{
+    margin-top: 100px;    
+}
+
+div.time-indic{
+    background-color: white;
+    display: block;
+    text-align: center;
+    width: 20px;
+    min-height: 100px;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
