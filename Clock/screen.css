@@ -1,9 +1,17 @@
+ /* thank you W3 Schools */
+@keyframes timePassing {
+    0%, 100% { background-color: cyan;}
+    25% { background-color: orange;}
+    50% {background-color: red;}
+    75% { background-color: blue;}
+}
 html{
     font-family: 'Courier New', Courier, monospace;
-    background-image: linear-gradient(to bottom, cyan, blue);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
     height: auto;
     background-size: cover;
     background-attachment: fixed;
+    animation: timePassing 4s infinite;
 }
 
 h1{

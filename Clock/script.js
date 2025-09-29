@@ -7,7 +7,6 @@ function currentTime() {
     var hour = date.getHours();
     var min = date.getMinutes();
     var sec = date.getSeconds();
-    var operand = 4;
     document.getElementById("main").innerHTML = hour + " : " + min + " : " + sec;
     var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
 }
